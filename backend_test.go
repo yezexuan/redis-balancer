@@ -5,7 +5,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"gopkg.in/redis.v3"
+	"gopkg.in/redis.v5"
 )
 
 var _ = Describe("redisBackend", func() {

@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/bsm/redis-balancer"
-	"gopkg.in/redis.v3"
+	"github.com/yezexuan/redis-balancer"
+	"gopkg.in/redis.v5"
 )
 
 func main() {

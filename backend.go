@@ -6,8 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/redis.v3"
-	"gopkg.in/tomb.v2"
+	"gopkg.in/redis.v5"
 )
 
 var pattern = regexp.MustCompile(`connected_clients:(\d+)`)

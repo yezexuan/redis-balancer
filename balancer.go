@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/redis.v3"
+	"gopkg.in/redis.v5"
 )
 
 type BalanceMode int
